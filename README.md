@@ -1,6 +1,7 @@
 # 📱 AxionOS Changelog  
 
-## 📅 Latest Version - **1.2** (eta: March 2025)
+## 📅 Latest Version - **1.2**
+- **March 2025 Security Update:**
 
 ### 🚀 What's New  
 
@@ -13,6 +14,8 @@
   - Improved landscape layout for better usability
 - **Tablet UI Fixes:**
   - Resolved various layout issues for a more refined experience
+- **Imporved Freeform:**
+  - Reduced freeform window density
 
 #### 🛠️ New Features  
 - Added **Game Spoofing** option
@@ -20,7 +23,6 @@
 - Added **Ignore Secure Window Flag** option
 - Enabled **Application Downgrade Support**
 - Added **Columbus Service** aka **Quick Tap**
-- Added **Per-app Volume**
 - Added **Volume Steps**
 - Added **Sound tile**
 - Added **Data Switch tile**
@@ -31,10 +33,12 @@
 - Added **Hide app list**
 - Added **Lockscreen Weather**
 - Added **Preferred Network QS tile**
+- Added **Netflix Full HD spuff**
 
 #### ⚡ System Enhancements  
 - **Performance Mode:**
   - Introduced a new **Performance Mode** that optimizes the CPU scheduler (based on TKG/Liquorix/Zen kernel tunings) and governor for higher performance
+  - Improved gaming performance by applying Unity CPU affinity tweaks to all games for better performance.
 - **GameSpace Integration:**
   - When **GameSpace Performance Mode** is enabled, the system automatically enables the system performance mode while the game is active (if system performance mode is disabled)
 - **CPU Sleep Optimizations:**
