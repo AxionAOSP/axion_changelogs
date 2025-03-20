@@ -1,6 +1,19 @@
 # 📱 AxionOS Changelog  
 
-## 📅 Latest Version - **1.2**
+## 📅 Latest Version - **1.2-BETA hotfix**
+- **March 2025 Security Update:**
+
+### 🚀 What's New  
+
+#### ⚡ System Enhancements  
+- Fixed multiple issue reported during initial beta release
+- Smoother QS Expansion
+- Improved recents task locking
+- Added support for enabling taskbar
+
+## 🔄 Previous Releases  
+
+### **1.2 - Initial beta** (February 19, 2025)  
 - **March 2025 Security Update:**
 
 ### 🚀 What's New  
@@ -57,8 +70,6 @@
 - **Fixed Revanced MicroG Signature Spoofing**
 - **Scheduling improvements**
 - **Enabled Proactive kills for modern kernels**
-
-## 🔄 Previous Releases  
 
 ### **1.1 - Hotfix** (February 19, 2025)  
 #### 🎨 UI/UX Enhancements  
