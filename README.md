@@ -1,6 +1,6 @@
 # 📱 AxionOS Changelog  
 
-## 📅 Latest Version - **1.3-BETA**  
+## 📅 Latest Version - **1.3**  
 **Security Patch:** April 2025
 
 ### 🚀 What's New  
