@@ -9,6 +9,12 @@
    - Fixed overview button bottom margin
    - Fixed GameSpace issues
    - Fixed app startup failures caused by freezer
+   - Fixed cloned apps not appearing in app drawer
+   - Fixed custom clock animations
+- **UI Improvements**: 
+  - Improved doze/screen off/on transitions - taken from NothingOS 3.0
+  - Added matrix ripple unlock animation
+  - Added three-target ringer mode tile
 - **Launcher Improvements**: 
    - Added misc features and fixes over previous version.
    - Added option for global search when tapping hotseat/all apps search bar when "Pixel Search" is installed.
@@ -18,6 +24,7 @@
   - Misc performance efficient optimizations
   - Improved scrolling responsiveness
   - Android threads scheduling efficiency changes
+  - Fixed aggressive killing of sandbox processes e.g. chrome tabs
 - **GameSpace**: 
   - Added GameSpace bypass charging.
   - Games are now automatically added to gamespace after installation and set to performance mode.
