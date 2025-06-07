@@ -1,47 +1,34 @@
 # ⚛️ AxionOS Changelog  
 
-## 📅 Latest Version - **1.4**  
-**Security Patch:** May 2025
+## 📅 Latest Version - **1.5**  
+**Security Patch:** June 2025
 
 ### 🚀 What's New  
 - **Bug Fixes**:
-   - Fixed full screen apps issues
-   - Fixed overview button bottom margin
-   - Fixed GameSpace issues
-   - Fixed app startup failures caused by freezer
-   - Fixed cloned apps not appearing in app drawer
-   - Fixed custom clock animations
+   - Misc bug fixes
+   - Fixed and prevented SystemUI app not responding errors
 - **UI Improvements**: 
-  - Improved doze/screen off/on transitions - taken from NothingOS 3.0
-  - Added matrix ripple unlock animation
-  - Added three-target ringer mode tile
-- **Launcher Improvements**: 
-   - Added misc features and fixes over previous version.
-   - Added option for global search when tapping hotseat/all apps search bar when "Pixel Search" is installed.
-   - Improved recent task locking
+  - New bootanimation by @alecxtra 
+  - QuickSettings Material expressive design when blur is enabled
+  - Settings Material expressive design implementation
+  - Doze/Screen off/on animation improvements
+  - Weather view now appears on AOD/doze
+  - Lockscreen font cosmetic changes
+  - QuickSpace enhancements
 - **System Optimizations**:
-  - Misc memory optimizations
-  - Misc performance efficient optimizations
-  - Improved scrolling responsiveness
-  - Android threads scheduling efficiency changes
-  - Fixed aggressive killing of sandbox processes e.g. chrome tabs
-- **GameSpace**: 
-  - Added GameSpace bypass charging.
-  - Games are now automatically added to gamespace after installation and set to performance mode.
-  - Added memory boost
-  - Fixed danmaku notification handling
-  - Fixed and improved game panel animations
-- **BoostFramework**: 
-  - Boosted unlock animations performance
-  - Smoother QuickSettings scrolling
-  - Added Memory boost when boosting animations
-- **New Features**:
-  - Added per-app sensor blocking.
-  - Added option to enable/disable HDR display for HDR devices (E.g too bright videos on media players like tiktok/instagram/youtube etc)
-  - Added option to change clock font
-  - Added IOS battery styles
-  - Added back gesture height settings
-- **Pixel devices**:
-  - Performance optimization backports from the latest Tensor to G2 and G1 Tensor devices.
-  - Removed thermal throttling for temps below 43C 
+  - App launch performance optimizations
+  - System latency performance optimizations
+  - Increased allowed max background processes for 6gb+
+  - Optimized vulkan layers search efficiency
+  - Avoid battery drain caused by GPS
+  - Improved recents lock functionality to prevent an app from being easily killed by system
+  - Pixels: re-tuned aggressive system/kernel tunings to reduce power consumption
+  - Pixels: re-enabled thermal throtting due to may 2025 overheating issue 
+- **Features**:
+  - Added IME navigation bar visibility toggle
+  - Added HDR display brightness intensity settings
+  - Re-added homescreen hotseat search support
+  - Added screen-off AOD toggle
+  - Removal of play integrity spoofing
+  
 ---
