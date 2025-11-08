@@ -1,46 +1,43 @@
 # AxionOS Changelog
 
-## Latest Version — **2.1 Stable**
-**Security Patch:** October 2025
+## Latest Version — **2.2 Stable**
+**Security Patch:** November 2025
 
 ---
 
-### What's New in 2.1 Stable
+### What's New in 2.2 Stable
 
 #### UI & Design
-- Refreshed Quick Settings with improved brightness slider
-- Updated Settings dashboard
-- NothingOS-inspired widgets and lockscreen clocks
-- Dynamic themed icons and refined launcher visuals
-- New blur & Material You hybrid design
+- New QuickLook-supported clocks inspired by NothingOS
+- Partial Theme Engine implementation with Font Manager
+- Refreshed widgets and Quick Settings tiles (ringer, volume, torch)
+- Sidebar improvements and long-press to launch apps in full screen
 
 ---
 
 #### System & Performance
-- Rewritten Boost Framework with new Performance Toolkit
-- Optimized Low Memory Killer and advanced thermal controls
-- Faster app launch with Dex Prefetcher & ODEX optimizations
-- Reduced memory usage and improved animation smoothness
-- ScrollOptimizer for smoother scrolling
+- Boost Framework updates:
+  - Removed NothingOS usage-based memory management
+  - Added optional Userspace Simple LMK for low memory handling
+- Persistent and stable services (Edge Bar, Axion Widgets)
+- Adjustments to device animations and Doze support
 
 ---
 
 #### Features & Additions
-- New Game Panel with real-time FPS meter and quick access tiles
-- Redesigned Freeform multitasking with floating icons
-- Sidebar reimagined for faster access
-- HBM (High Brightness Mode) service
-- HDR and Torch intensity controls
-- Lock screen QS toggle, media art, and mistouch prevention options
-- App Locker and network speed indicator
-- Partial screenshot and 3-finger swipe gesture
+- Power button short press action for accessibility
+- Task Menu close now force-stops apps
+- Launch apps anywhere with improved sidebar
+- Enhanced Spoofing fixes for RootBeerNative checks
+- Support for custom fonts through Android system
 
 ---
 
 #### Fixes & Improvements
-- Resolved VPN, cloned profile, and dark mode issues
-- Fixed SystemUI memory leaks and Quick Settings glitches
-- Patched lockscreen element disappearance bugs
-- Fixed animation lag on MediaTek devices
-- Improved biometrics and volume icon consistency
-- Fixed clock customization and ignore secure window issues
+- Fixed legacy device random reboots and cgroup failures
+- Fixed biometrics freezing and lockscreen disappearance
+- Fixed full screen feature (black bars removed)
+- Fixed bugged QuickSettings on keyguard
+- Fixed inconsistent fingerprint icon
+- Attempted fix for app icon corruption causing system freeze
+- Various community-suggested tweaks and small fixes
