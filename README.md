@@ -7,14 +7,6 @@
 
 ### What's New in 2.2.1 Stable
 
-#### System & Performance
-- AxBurstEngine
-  - UI-first-policy engine inspired from oplus trinity engine and BORE (Burst-Oriented Response Enhancer) mechanism developed for android
-  - improves multi-tasking by protecting perceptible processes from being killed under pressure
-  - limits unnecessary processes to reduce resource consumption for smoother and less overheating experience
-
----
-
 #### Features & Additions
 - Suppress notifications sound/vibration if screen on by ezio84
 - Added ability to ship IMS overrides (Enable VoXX features) by vvb2060
