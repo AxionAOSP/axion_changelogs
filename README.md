@@ -1,36 +1,37 @@
 # AxionOS Changelog
 
-## Latest Version — **2.3 BETA**
-**Security Patch:** December 2025
+## Latest Version — **2.4 SOLACE**
+**Security Patch:** January 2026
 
 ---
 
-### What's New in 2.3 BETA
+### What's New in 2.4 SOLACE
 
 #### Features & Additions
-- Revamped user interface
-- New Theme engine/store
-- Builtin tricky store
-- Builtin PIF
-- New Essential notifications
-- New GameSpoofing feature
-- New Sandbox experience
-- Improved media art feature - added doze/always on display support
-- Improved pulse visualizer - added fading blocks style
-- Added multi-audio focus support
-- Revamped freeform experience
-- Re-introduce AxBurstEngine
-- Improved UI animations and performance
-- Added minmize button to gamespace call overlay
-- New Pulse launcher UI
- - new icons/folder customizations
- - added search bar providers
- - added universal search support
-- Gamespace enhancements by rve27
-- added Shake and 3-finger gestures
+- added cyberpunk 2077 and axion age clocks
+- added year progress Axion Widget
+- added mock location restriction
+- added per-app refresh rate feature
+- added notification for UX performance dexopt optimization
+- added always-on-display features
+- added blur level settings & app drawer opacity
+- added show suggestions & special actions in app drawer
+- added more translations to other languages
+- fixed and improved ax burst engine
+- improved face unlock speed
+- improved sandbox experience
+- improved freeform experience
+- improved shade panel colors
 
-#### Features & Additions
-- fixed an issue where pulse visualizer doesnt work when using bluetooth devices
-- fixed volumed dialog - keyboard focus issue
+#### Bug fixes
+- fixed top-app throttling
+- fixed force fullscreen feature
+- fixed playback/notification issues when media focus is enabled
+- fixed google photos crash
+- fixed udfps animation issues
+- fixed volume panel issues
+- fixed all apps expansion lags/janks
+- fixed inaccurate cpufreq frequencies
+- fixed app lock issues
 
 ---
