@@ -15,7 +15,8 @@
 - added notification for UX performance dexopt optimization
 - added always-on-display features
 - added blur level settings & app drawer opacity
-- added show suggestions & special actions in app drawer
+- added show app drawer suggestions
+- added app special actions in app drawer search
 - added more translations to other languages
 - fixed and improved ax burst engine
 - improved face unlock speed
@@ -26,12 +27,13 @@
 #### Bug fixes
 - fixed top-app throttling
 - fixed force fullscreen feature
-- fixed playback/notification issues when media focus is enabled
+- fixed playback/notification issues when multi-media focus is enabled
 - fixed google photos crash
 - fixed udfps animation issues
 - fixed volume panel issues
 - fixed all apps expansion lags/janks
-- fixed inaccurate cpufreq frequencies
+- fixed inaccurate cpu frequencies in performance settings cpu freq sliders
 - fixed app lock issues
+- fixed lockscreen clock preview issues
 
 ---
