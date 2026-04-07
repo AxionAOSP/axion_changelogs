@@ -1,12 +1,60 @@
 # AxionOS Changelog
 
-## Latest Version — 2.5 BETA REVERIE
+## Latest Version — 2.5a REVERIE
 
 **Security Patch:** March 2026
 
 ---
 
-### What's New in 2.5 BETA REVERIE
+### What's New in 2.5a REVERIE
+
+- **Extended Screen Recorder Options**
+- **Added 5g tile and internet tile improvements** *(ct: Saikrishna1504)*
+- **force LTE_CA** *(ct: Arindam Bhattacharjee)*
+- **Gamespace Improvements**
+  - added immersive lock 
+  - improve ui/ux
+- **Edgelauncher improvements**
+  - added all apps drawer back
+  - added launch apps as bubble feature
+  - improved long press popup menu
+- **Dynamic bar improvements**
+  - added more buttons to media keyguard chip
+  - fixed misc reported issues
+- **AxPcMode Improvements**
+  - layout fixes and ui improvements
+  - fixed dpi issues
+- **AxionFx Improvements**
+  - fixed misc effect issues 
+  - added presets and improvements *(ct: Saikrishna1504)*
+- **Refresh rate improvements**
+  - fixed refresh rate issues
+  - improved and reworked refresh rate control based on interactivity
+- **Pulse Launcher improvements**
+  - fixed misc reported issues
+  - added icons customizations
+  - added launch apps as bubble feature
+  - gesture burn in protection *(ct: RealJohnGalt)*
+- **Quicksettings ui redesign**
+  - closer look to material expressive
+  - added tile animations
+- **ThemeEngine improvements**
+  - added back gesture icon, charge animations, battery themes
+- **VolumeUI Improvements**
+  - improved ui,haptics and animations
+- **AxBurstEngine improvements**
+  - improved foreground performance
+- **Media art improvements**
+  - added new media art card concept
+- **Edge light improvements**
+  - new edge lights design 
+- **Misc fixes**
+  - fixed tricky store stackoverflow
+  - fixed axion widgets issues
+  - fixed themepicker lockscreen wallpaper issue
+  - and many more..
+
+### Beta changelogs
 
 #### Features & Additions
 
@@ -84,3 +132,4 @@
 - **Added support for Aosmium, Cromite, Bromite webviews** in Status Bar Tuner
 
 - **New USB BottomSheet UI**
+
