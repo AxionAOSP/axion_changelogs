@@ -1,135 +1,71 @@
 # AxionOS Changelog
 
-## Latest Version — 2.5a REVERIE
+## Latest Version — 2.6 QUASIS
 
-**Security Patch:** March 2026
+**Security Patch:** April 2026
 
 ---
 
-### What's New in 2.5a REVERIE
+### What's New in 2.6
 
-- **Extended Screen Recorder Options**
-- **Added 5g tile and internet tile improvements** *(ct: Saikrishna1504)*
-- **force LTE_CA** *(ct: Arindam Bhattacharjee)*
+- **Fixed and improved dynamic bar issues**
+  - new lockscreen media layout
+  - remove redundant notification events override
+  - connected pipeline to default status bar chip 
+     - call chip should now show aosp calls ui
+     - recording now uses default ui
+- **Introduce AxBurstEngine v2**
+  - improved performance engine with new framework and features 
+     - advanced thermal mitigation
+     - ui first manager
+     - BSP level boostings
+       - performance improvements observed on mid range devices with modern kernel (5.X uclamp)
+          - tests shows smoother scrolling on automated playstore | instagram app fling tests
+          - smoother activity open transitions on settings app fragment tests
+          - tolerable ui performance even when blur/wallpaper zoom enabled on mid range devices with 6 small : 2 big cluster type
 - **Gamespace Improvements**
-  - added immersive lock 
-  - improve ui/ux
+  - improved ui/ux
 - **Edgelauncher improvements**
-  - added all apps drawer back
-  - added launch apps as bubble feature
-  - improved long press popup menu
-- **Dynamic bar improvements**
-  - added more buttons to media keyguard chip
-  - fixed misc reported issues
+  - fixed reported issues
+  - added default launch mode setting *(ct: Saikrishna1504)*
+  - ui cleanup
+- **Spoofing improvements**
+  - fixed /data/adb exposure & regressions
 - **AxPcMode Improvements**
   - layout fixes and ui improvements
-  - fixed dpi issues
 - **AxionFx Improvements**
-  - fixed misc effect issues 
-  - added presets and improvements *(ct: Saikrishna1504)*
-- **Refresh rate improvements**
-  - fixed refresh rate issues
-  - improved and reworked refresh rate control based on interactivity
+  - fixed effects not working on devices that use newer audio aidl like pixel 8/9/10 above *(ct: Localhorst04)*
+  - added device profiles
 - **Pulse Launcher improvements**
-  - fixed misc reported issues
-  - added icons customizations
-  - added launch apps as bubble feature
-  - gesture burn in protection *(ct: RealJohnGalt)*
-- **Quicksettings ui redesign**
-  - closer look to material expressive
-  - added tile animations
-- **ThemeEngine improvements**
-  - added back gesture icon, charge animations, battery themes
-- **VolumeUI Improvements**
-  - improved ui,haptics and animations
-- **AxBurstEngine improvements**
-  - improved foreground performance
-- **Media art improvements**
-  - added new media art card concept
-- **Edge light improvements**
-  - new edge lights design 
+  - fixed private/work profile issues
+  - added guide for private space access on all apps drawer
+  - added long press to organize folders for smart drawer layout
+- **Routines improvements**
+  - fixed not working routines
+  - added http/internet routines
+- **Partial AxAnimationEngine introduction**
+  - new activity slide material expressive animation
+  - new lockscreen screen on wallpaper animation
+  - new workspace unlock animation
+- **New QS Tiles**
+  - routines tiles
+  - dns tiles
+- **Qs Customizer Improvements**
+  - improved qs customize button visuals *(ct: Saikrishna1504)*
+- **New Theme Store Themes**
+  - added udfps icons
+  - added udfps themes
+  - added waveform themes *(ct: Saikrishna1504)*
+- **New Sandbox FileVault**
+  - added file vault feature *(ct: Saikrishna1504)*
+- **Weather Omnijaws improvements**
+  - new weather icon types *(ct: Localhorst04)*
+- **Pc Mode improvements**
+  - added custom wallpaper support
 - **Misc fixes**
-  - fixed tricky store stackoverflow
-  - fixed axion widgets issues
-  - fixed themepicker lockscreen wallpaper issue
-  - and many more..
-
-### Beta changelogs
-
-#### Features & Additions
-
-- **Introducing AxionOS Easter egg** *(ctto: Saikrishna1504)*
-
-- **Introducing AxPcMode**
-  - Secondary display/alt-display mode support with phone as mouse/trackpad
-  - Added feature to turn off main display while projecting main display to scrcpy/virtual display
-  - Added support to change resolutions during PC mode
-
-- **Introducing AxBravia Engine**
-  - Port of Bravia Engine utilizing patterns observed from Sony Bravia Engine research
-
-- **Introducing AxDynamic Bar**
-  - Shows important events such as music/now playing/sports
-
-- **Introducing AxQuickLook**
-  - Our own version of Smartspace
-
-- **Introducing AxWallpaperEffects** *(ctto: Saad Ullah Khan)*
-  - New wallpaper effects
-
-- **Introducing AxionFx Audio Engine**
-
-- **Introducing Routines**
-
-- **Improved OmniJaws Weather App UI**
-
-- **Improved Lockscreen Widgets** — real widgets
-
-- **New Lockscreen Clocks** and improved lockscreen clock customizations with **new depth wallpaper effect**
-
-- **New Internet Dialog Data Usage Dashboard** and internet tiles data summary
-
-- **New Essential Notifications UI**
-
-- **Introducing Custom rom hide feature** - blocks root/custom rom detections from user apps
-
-- **New Pulse Launcher UI and Features**
-  - Lock recents app feature
-  - New folder icon in app grid support
-  - Smart drawer folder customization
-  - New Private Space UI
-  - Fixed and accurate QSB/hotseat port from Pixel Launcher
-  - New app drawer UI bringing Material Expressive design
-
-- **New Axion User Interface Changes/Redesign**
-  - Material 3 Expressive integration to Axion UI + dual tone theme
-
-- **Improved Ax Burst Engine** — utilizing researched OEM strategies for smoother performance and efficient power handling
-  - Smoother QS expansion over previous Axion versions
-  - Efficient background CPU handling ported from OxygenOS
-  
-- **Performance!** 
-  - reviving zlib-ng and bringing jemalloc optimization to pixels (ctto - grapheneos bionic allocator)
-
-- **New Advanced Tethering Options**
-
-- **New Sandbox Features** ported from HMA-OSS *(ctto: frknkrc44)*
-
-- **Improved Font Overriding and Rendering**
-  - Fixed font weight related issues
-  - Bypassed AOSP limitations on imported custom fonts
-
-- **New Sidebar UI**
-
-- **Redefined GameSpace** — new GameHub and tiles UI
-
-- **New Quick Settings Reorder System** — customize and reorder QS components without going to Settings
-
-- **Added More Status Bar Icons** to Status Bar Tuner
-
-- **Added Privacy Indicator Toggles** in Status Bar Tuner
-
-- **Added support for Aosmium, Cromite, Bromite webviews** in Status Bar Tuner
-
-- **New USB BottomSheet UI**
-
+  - fixed most issues reported in issue tracker
+  - fixed performance issues on mid range soc like mtk dimensity 7200 pro
+  - fixed lags when scrolling/flinging on unity games
+  - fixed doze issues *(ct: bijoyv9)*
+  - fixed app lock issues
+  - fixed keybox issues caused by keybox comments 
