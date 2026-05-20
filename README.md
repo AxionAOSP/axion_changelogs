@@ -1,13 +1,52 @@
 # AxionOS Changelog
 
-## Latest Version — 2.6 QUASIS
+## Latest Version — 2.6.1 QUASIS
 
 **Security Patch:** April 2026
 
 ---
 
+### What's New in 2.6.1
+- **User Interface changes**
+  - introducing new expressive blur ui
+  - introducing android 17 quicksettings port
+- **AxAnimationEngine introduction**
+  - smoother app launch animations
+- **New lockscreen clocks experience**
+  - reworked lockscreen clock ux|ui
+  - introducing freeform lockscreen clock ui customization
+  - new lockscreen clock styles/faces ported from color os
+- **New bubble list lockscreen notification style**
+  - ported motorola's bubble list lockscreen notification style
+- **Fixed and reworked freeform experience**
+  - new ui and bug fixes
+- **New Launcher feature and improvements**
+  - new themed icons customizations
+    - icon size control
+    - fg/bg colors control
+  - new launcher blur strategy that reduces blur resource usage
+  - added qsb configure search bar provider settings
+  - added recents opacity settings
+  - fixed folder animation issues
+- **ThemeEngine improvements**
+  - fixed signal/wifi icons size issues
+  - fixed udfps animations themes render size
+- **Haptics improvements**
+  - added fingerprint haptic toggle
+- **Dynamic bar fixes**
+  - fixed dynamic bar expanded keyguard touch issue
+- **Axion SDK changes**
+  - added ax_blur libs for future blur ui integration
+- **Axion Build system**
+  - prevented Out-Of-Memory situations and improved ninja speed on machines with 32gb ram or below
+- **Fixed misc issues**
+  - fixed gray scrim when pulsing/waking up device
+  - fixed vault issues
+  - fixed theme picker issues
+  - fixed per-app volume not showing system apps
+  - fixed freezing when using keep-alive feature
+  
 ### What's New in 2.6
-
 - **Fixed and improved dynamic bar issues**
   - new lockscreen media layout
   - remove redundant notification events override
