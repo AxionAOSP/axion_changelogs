@@ -16,8 +16,6 @@
   - reworked lockscreen clock ux|ui
   - introducing freeform lockscreen clock ui customization
   - new lockscreen clock styles/faces ported from color os
-- **New bubble list lockscreen notification style**
-  - ported motorola's bubble list lockscreen notification style
 - **Fixed and reworked freeform experience**
   - new ui and bug fixes
 - **New Launcher feature and improvements**
