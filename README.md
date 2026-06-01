@@ -1,15 +1,17 @@
 # AxionOS Changelog
 
-## Latest Version — 2.6.1 QUASIS
+## Latest Version — 2.7 PROXIMA
 
 **Security Patch:** April 2026
 
 ---
 
-### What's New in 2.6.1
+### What's New in 2.7
 - **User Interface changes**
   - introducing new expressive blur ui
   - introducing android 17 quicksettings port
+- **Introducing PulseEngine**
+  - a separate engine algorithm (thesis-backed) for improving foreground performance, sustained performance, and power efficiency by controlling system work around user-perceived deadlines.
 - **AxAnimationEngine introduction**
   - smoother app launch animations
 - **New lockscreen clocks experience**
@@ -25,7 +27,7 @@
   - new launcher blur strategy that reduces blur resource usage
   - added qsb configure search bar provider settings
   - added recents opacity settings
-  - fixed folder animation issues
+  - new expanded folder ui
 - **ThemeEngine improvements**
   - fixed signal/wifi icons size issues
   - fixed udfps animations themes render size
@@ -33,6 +35,13 @@
   - added fingerprint haptic toggle
 - **Dynamic bar fixes**
   - fixed dynamic bar expanded keyguard touch issue
+  - fixed expanded dynamic bar gesture issues
+  - fixed unstable keyguard album art
+  - stabilized regressing ui/media updates that contributes to cpu usage
+- **System Typography**
+  - addressed reported inconsistencies throughout the system
+- **AxBurstEngine v2**
+  - added support for legacy stune devices
 - **Axion SDK changes**
   - added ax_blur libs for future blur ui integration
 - **Axion Build system**
