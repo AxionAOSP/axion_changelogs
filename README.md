@@ -1,117 +1,49 @@
 # AxionOS Changelog
 
-## Latest Version — 2.7 PROXIMA
+## Latest Version — 2.8 ONEIRA FINAL
 
-**Security Patch:** April 2026
+**Security Patch:** July 2026
 
+**Notice** 
+- some features were dropped for stability and will be re-added till we figure out how to do the feature correctly
+
+**Dropped features**
+- Folder styles
+- Folder Enlarge/Shrink
 ---
 
-### What's New in 2.7
-- **User Interface changes**
-  - introducing new expressive blur ui
-  - introducing android 17 quicksettings port
-- **Introducing PulseEngine**
-  - a separate engine algorithm (thesis-backed) for improving foreground performance, sustained performance, and power efficiency by controlling system work around user-perceived deadlines.
-- **AxAnimationEngine introduction**
-  - smoother app launch animations
-- **New lockscreen clocks experience**
-  - reworked lockscreen clock ux|ui
-  - introducing freeform lockscreen clock ui customization
-  - new lockscreen clock styles/faces ported from color os
-- **Fixed and reworked freeform experience**
-  - new ui and bug fixes
-- **New Launcher feature and improvements**
-  - new themed icons customizations
-    - icon size control
-    - fg/bg colors control
-  - new launcher blur strategy that reduces blur resource usage
-  - added qsb configure search bar provider settings
-  - added recents opacity settings
-  - new expanded folder ui
-- **ThemeEngine improvements**
-  - fixed signal/wifi icons size issues
-  - fixed udfps animations themes render size
-- **Haptics improvements**
-  - added fingerprint haptic toggle
-- **Dynamic bar fixes**
-  - fixed dynamic bar expanded keyguard touch issue
-  - fixed expanded dynamic bar gesture issues
-  - fixed unstable keyguard album art
-  - stabilized regressing ui/media updates that contributes to cpu usage
-- **System Typography**
-  - addressed reported inconsistencies throughout the system
-- **AxBurstEngine v2**
-  - added support for legacy stune devices
-- **Axion SDK changes**
-  - added ax_blur libs for future blur ui integration
-- **Axion Build system**
-  - prevented Out-Of-Memory situations and improved ninja speed on machines with 32gb ram or below
-- **Fixed misc issues**
-  - fixed gray scrim when pulsing/waking up device
-  - fixed vault issues
-  - fixed theme picker issues
-  - fixed per-app volume not showing system apps
-  - fixed freezing when using keep-alive feature
-  
-### What's New in 2.6
-- **Fixed and improved dynamic bar issues**
-  - new lockscreen media layout
-  - remove redundant notification events override
-  - connected pipeline to default status bar chip 
-     - call chip should now show aosp calls ui
-     - recording now uses default ui
-- **Introduce AxBurstEngine v2**
-  - improved performance engine with new framework and features 
-     - advanced thermal mitigation
-     - ui first manager
-     - BSP level boostings
-       - performance improvements observed on mid range devices with modern kernel (5.X uclamp)
-          - tests shows smoother scrolling on automated playstore | instagram app fling tests
-          - smoother activity open transitions on settings app fragment tests
-          - tolerable ui performance even when blur/wallpaper zoom enabled on mid range devices with 6 small : 2 big cluster type
-- **Gamespace Improvements**
-  - improved ui/ux
-- **Edgelauncher improvements**
-  - fixed reported issues
-  - added default launch mode setting *(ct: Saikrishna1504)*
-  - ui cleanup
-- **Spoofing improvements**
-  - fixed /data/adb exposure & regressions
-- **AxPcMode Improvements**
-  - layout fixes and ui improvements
-- **AxionFx Improvements**
-  - fixed effects not working on devices that use newer audio aidl like pixel 8/9/10 above *(ct: Localhorst04)*
-  - added device profiles
-- **Pulse Launcher improvements**
-  - fixed private/work profile issues
-  - added guide for private space access on all apps drawer
-  - added long press to organize folders for smart drawer layout
-- **Routines improvements**
-  - fixed not working routines
-  - added http/internet routines
-- **Partial AxAnimationEngine introduction**
-  - new activity slide material expressive animation
-  - new lockscreen screen on wallpaper animation
-  - new workspace unlock animation
-- **New QS Tiles**
-  - routines tiles
-  - dns tiles
-- **Qs Customizer Improvements**
-  - improved qs customize button visuals *(ct: Saikrishna1504)*
-- **New Theme Store Themes**
-  - added udfps icons
-  - added udfps themes
-  - added waveform themes *(ct: Saikrishna1504)*
-- **New Sandbox FileVault**
-  - added file vault feature *(ct: Saikrishna1504)*
-- **Weather Omnijaws improvements**
-  - new weather icon types *(ct: Localhorst04)*
-- **Pc Mode improvements**
-  - added custom wallpaper support
-- **Misc fixes**
-  - fixed most issues reported in issue tracker
-  - fixed performance issues on mid range soc like mtk dimensity 7200 pro
-  - fixed lags when scrolling/flinging on unity games
-  - fixed doze issues *(ct: bijoyv9)*
-  - fixed app lock issues
-  - fixed keybox issues caused by keybox comments 
+### What's New in 2.8
+- **Introducing AxAnimationEngine**
+  - new system animations
+  - new activity/page transitions
+  - new launcher animations
+  - fixed and improved on/unlock animations
+- **Reworked Performance Framework**
+  - a more stable framework compared to previous performance framework
+   - improved performance over baseline stock AOSP 
+     - improved entry-level device performance for devices like OnePlus Nord N30 5G
+     - better ui performance even with blur enabled and heavy rendering
+  - upgraded jemalloc to 5.3.1
+  - enforced vulkan and added optional fix for devices with media tinting issues
+  - jpeg-turbo performance enhancements
+  - cheaper blur with better quality (can be rendered at max of 175f blur radius on snapdragon 695 with minimal hiccups)
+- **QuickSettings Reworked**
+  - new quicksettings user interface made more customizable
+- **Reworked Launcher**
+  - fixed app drawer issues
+  - improved universal search
+  - added granular grid/home/drawer customizations
+  - new recents ui
+- **Screen Record**
+  - added granular fps control
+  - fixed dropdown item alignment
+- **Ram plus**
+  - added swap extension feature
+- **New AxKernelManager**
+  - a more granular builtin kernel manager - devs can now add more tunables
+- **Fixed issues**
+  - fixed smart pixels showing in screenshot issue
+  - fixed hide gesture pill extra space issue
+  - fixed essential notifications footer issue
+  - fixed video flicker when expanding shade over
+  - fixed stacked power menu issue
