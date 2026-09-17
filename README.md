@@ -28,6 +28,10 @@
 - **QuickSettings Reworked**
   - new quicksettings user interface made more customizable
   - new media player look
+- **Introducing AxDiagnostics**
+  - Overall diagnostics in one place ( Battery , gpu , cpu , thermals ,storage ).
+  - Real-time cpu/gpu stats overlay.
+  - Real-time battery stats via notification service.
 - **Reworked Launcher**
   - fixed app drawer issues
   - improved universal search
@@ -54,6 +58,11 @@
   - various fixes and optimizations (credits: joshuah345 & Saikrishna1504)
 - **AxQuicklook**
   - fix smartspacer issues (credits: Saikrishna1504)
+- **GameSpace**
+  - Introduce Music Player Controller
+  - Introduce Custom Crosshair Overlay
+  - Improved in-call overlay
+  - Improved Memory boost tile
 - **Added new lockscreen clock**
   - new Gooey clock
 - **Fixed issues**
